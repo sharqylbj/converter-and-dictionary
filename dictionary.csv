@@ -1,0 +1,15 @@
+function | a block of organized, reusable code, used to perform a sigle, related action | https://www.tutorialspoint.com/python/python_functions.htm
+parameter | named entity in a function (or method) that specifies an argument that the function can accept | https://docs.python.org/3/glossary.html
+variable | reserved memory location used to store value | https://www.tutorialspoint.com/python/python_variable_types.htm
+argument | value passed to function (or method) when calling the function | https://docs.python.org/3/glossary.htm
+dictionary | an associative array, where arbitrary keys are mapped to values | https://docs.python.org/3/glossary.htm
+tuple | an immutable sequence of Python objects, defined with parentheses or without them | https://www.tutorialspoint.com/python/python_tuples.htm
+ASCII table | character encoding standard for representing English characters as numbers | www.webopedia.com/TERM/A/ASCII.html
+module | a file containing Python definitions and statements | https://docs.python.org/3/tutorial/modules.html
+list |  a mutable datatype written as a list of comma-separated values between square brackets | https://www.tutorialspoint.com/python/python_lists.htm
+string | a contiguous set of characters represented in quotation marks | https://wwtutorialspoint.com/python/python_variable_types.htm
+integer | a numeric type with unlimited precision | https://docs.python.org/3.6/library/stdtypes.htm
+while | a type of loop used for repeating code until a defined condition is no longer met | https://wiki.python.org/moin/WhileLoop
+importing | process by which Python code in one module is made available to Python code in another module | https://docs.python.org/3/glossary.html#term-importing 
+loop | a type of statement allowing user to execute a statement or group of statements multiple times | https://tutorialspoint.com/pyhton/python_loops.htm
+iterable | an object capable of returning its members one at a time | https://docs.python.org/3/glossary.htm

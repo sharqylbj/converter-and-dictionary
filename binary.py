@@ -1,11 +1,16 @@
 # function converting decimal to binary
 def binary(decimal_exampl):
-    # defining a blank string
+    decimal_exampl = int(decimal_exampl)
     binary_number = ""
-    # loop using division by 2 to convert from decimal to binary
-    while decimal_exampl != 0:
-        binary_number = str(decimal_exampl % 2) + binary_number
+    while decimal_exampl > 1:
+        if decimal_exampl % 2 == 1:
+            binary_number = "1" + binary_number
+            decimal_exampl -= 1
+        elif decimal_exampl % 2 == 0:
+            binary_number = "0" + binary_number
         decimal_exampl /= 2
+    if decimal_exampl == 1:
+        binary_number = "1" + binary_number
     return binary_number
 
 

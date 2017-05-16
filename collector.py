@@ -200,9 +200,9 @@ def calculate_albums_age():
         albums.append(item[1])
         years.append(item[2])
     # printing album details
-    for artist, album, year in zip(albums, artists, years):
+    for album, artist, year in zip(albums, artists, years):
         album_age = 2017 - int(year)
-        print(album + " was released " + album_age + " years ago by " + artist)
+        print(album + " was released " + str(album_age) + " years ago by " + artist)
 
 
 def random_album(genre):
